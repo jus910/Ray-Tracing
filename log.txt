@@ -8,3 +8,9 @@
   - Seems very time inefficient 
     - Solving the point in a polygon, and finding the boundary crossed are the most time intensive  
   - Does not work with vertical rays
+
+Next Steps: 
+   - Change circle class to subclass of larger polygon class (all shapes are approximated as polygons) 
+   - Check the physics to make sure that the results are physical 
+   - The next BIG step could be adding ideal thin lenses with different radii
+   - It would be really cool if it could get the shape of a lens from one of the documents that ThorLabs provides for their lenses (I'd be curious to see an aspherical)
