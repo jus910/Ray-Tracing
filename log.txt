@@ -1,1 +1,10 @@
-7/14 - Simple Refraction on a perpendicular surface 
+7/14 
+  - Simple Refraction on a perpendicular surface 
+
+7/15 
+  - Removed the perpendicular surface refraction for v2
+  - Added refraction for a circular lens (the lens is a literal circle)
+    - Seems to work well enough, spherical aberrations can be seen 
+  - Seems very time inefficient 
+    - Solving the point in a polygon, and finding the boundary crossed are the most time intensive  
+  - Does not work with vertical rays
