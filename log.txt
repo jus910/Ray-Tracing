@@ -17,7 +17,7 @@
   - BiConvex lenses were added
     - Radii of Curvature, and thickness of lens can be modified
   - Fixed clearObjects so now it modifies the global variable 
-  - Modified plotEverything so that now it can 
+  - Removed ray global variable, now only objects and stepSize are global 
 
 Next Steps: 
    - Add biconvex such that radii 1 can be modified without modifying theoretical focus
