@@ -19,6 +19,12 @@
   - Fixed clearObjects so now it modifies the global variable 
   - Removed ray global variable, now only objects and stepSize are global 
 
+7/19
+   - vertical rays should work now 
+   - replaced closest boundary find, with find boundary crossed
+     - instead of finding the closest boundary, we find the boundary that the line segment intersects with
+   - made everything more readable
+
 Next Steps: 
    - Add biconvex such that radii 1 can be modified without modifying theoretical focus
    - Add other types of lenses (concave, etc)  
