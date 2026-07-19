@@ -24,9 +24,18 @@
    - replaced closest boundary find, with find boundary crossed
      - instead of finding the closest boundary, we find the boundary that the line segment intersects with
    - made everything more readable
+   - for v3.2 changed sign convention for lens to make it more typical 
 
 Next Steps: 
-   - Add biconvex such that radii 1 can be modified without modifying theoretical focus
    - Add other types of lenses (concave, etc)  
-   - add where theoretical focus should be
+     - idea for non-intersecting circles, would be to use the edge of the smaller circle for the edges 
+
+   - Add principal plane calculations 
+   - should change lens so that we choose the second principal point, and the lens is built on that (so that its easier to compare the focus of different lens shapes)
+
+   - could add another lens object where you choose the focus, coddington shape factor?, and the second principal point, so that its easier to compare lens shapes 
+
+   - Add where the theoretical focus should be (could be a value for each lens object)
+   - find out where rays intersect focal plane and where they cross the focal plane for focus calculations
+
    - It would be really cool if it could get the shape of a lens from one of the documents that ThorLabs provides for their lenses (I'd be curious to see an aspherical)
