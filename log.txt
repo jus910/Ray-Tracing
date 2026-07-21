@@ -26,6 +26,15 @@
    - made everything more readable
    - for v3.2 changed sign convention for lens to make it more typical 
 
+7/20 
+  - completely new methodology in the different method notebook
+    - the ray is now a collection of points, no more step sizes
+    - the intersections are calculated analytically instead of numerically
+    - the normal is also calculated analytically 
+    - this runs much faster, and is much more precise, there are less errors 
+    - this method can only work for curves with a well defined formula
+      - the previous method could work for any closed curve without needing a formula
+
 Next Steps: 
    - Add other types of lenses (concave, etc)  
      - idea for non-intersecting circles, would be to use the edge of the smaller circle for the edges 
@@ -36,6 +45,7 @@ Next Steps:
    - could add another lens object where you choose the focus, coddington shape factor?, and the second principal point, so that its easier to compare lens shapes 
 
    - Add where the theoretical focus should be (could be a value for each lens object)
-   - find out where rays intersect focal plane and where they cross the focal plane for focus calculations
+   - find out where rays intersect focal plane and where they cross the focal plane for fo
+cus calculations
 
    - It would be really cool if it could get the shape of a lens from one of the documents that ThorLabs provides for their lenses (I'd be curious to see an aspherical)
